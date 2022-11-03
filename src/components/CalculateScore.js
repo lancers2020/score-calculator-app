@@ -30,6 +30,7 @@ function CalculateScore(){
                         document.getElementById("p-1").innerHTML = verdictF;
                     }
                     document.getElementById("p-2").innerHTML = result.toFixed(2);
+                    setIsChanged(true);
                 }
                 else{
                     document.getElementById("p-2").innerHTML += "<div/> valid scores (0 - 100)";
